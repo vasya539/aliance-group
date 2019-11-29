@@ -1,0 +1,97 @@
+@import "bootstrap";
+
+//  -------------------- PRESETUP
+
+body {
+  font-family: 'Open Sans', arial, sans-serif;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+// ---------------------- HEADER
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    color: rgb(2, 83, 126);
+  }
+  ul {
+    display: flex;
+    li {
+      list-style: none;
+      margin: 0 10px;
+      a, a:hover, a:visited, a:focus {
+        color: black;
+      }
+      a:active {
+        color: rgb(2, 83, 126);
+      }
+    }
+  }
+}
+
+
+//  -------------------- FROM-SECTION
+
+.how-to-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+// --------------------- ABOUT-US
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  .payment, .options {
+    width: 100%;
+    text-align: left;
+  }
+}
+
+
+//  -------------------- OUR-PARTNERS
+
+
+
+
+// ---------------------- HOW-TO-CONTACT
+
+.how-to-contact {
+  input {
+    width: 70%;
+  }
+}
+
+
+// --------------------- FOOTER
+
+.address-phone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tel {
+}
+
+.copy-right {
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+  color: rgb(89, 89, 89);
+}
